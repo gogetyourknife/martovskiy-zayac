@@ -1,0 +1,4 @@
+.navigation__contancts {
+    display: flex;
+    list-style-type: none;
+}

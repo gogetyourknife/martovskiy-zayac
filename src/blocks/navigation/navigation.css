@@ -1,0 +1,9 @@
+.navigation {
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(74, 78, 105);
+    box-sizing: border-box;
+    width: 329px;
+    padding-top: 300px;
+}

@@ -1,0 +1,11 @@
+.navigation__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: rgb(242, 233, 228);
+    cursor: pointer;
+    transition: 0.15s;
+}
