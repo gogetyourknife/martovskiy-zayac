@@ -1,0 +1,7 @@
+.navigation__social_insta {
+    background-image: url('../../../../images/instagram-creme.svg');
+}
+
+.navigation__social_insta:hover {
+    background-image: url('../../../../images/instagram-red.svg');
+}

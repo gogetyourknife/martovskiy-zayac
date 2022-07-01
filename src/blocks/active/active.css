@@ -1,3 +1,7 @@
 .active {
     color: #CF404D;
 }
+
+.active:hover {
+    color: #CF404D;
+}

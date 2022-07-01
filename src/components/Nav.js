@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
+import paint from '../images/paint.png';
+
 function Nav() {
     return (
         <section className='navigation'>
@@ -15,29 +17,40 @@ function Nav() {
                 </li>
                 <li className='navigation__link'>
                     <NavLink
-                        to="/about"
-                        className='navigation__link'
-                    >
-                        About
-                    </NavLink>
-                </li>
-                <li className='navigation__link'>
-                    <NavLink
                         to="/gallery"
                         className='navigation__link'
                     >
                         Gallery
                     </NavLink>
                 </li>
-            </ul>
-            <ul className='navigation__contancts'>
-                <li className='navigation__social'>
-                    <a href='https://twitter.com/FrauMizantrop' target='_blank'></a>
+                <li className='navigation__link'>
+                    <NavLink
+                        to="/prices"
+                        className='navigation__link'
+                    >
+                        Prices
+                    </NavLink>
                 </li>
-                <li className='navigation__social'>
-                    <a href='https://www.patreon.com/Martovskiy_Zayac' target='_blank'></a>
-                </li>
             </ul>
+            <div className='navigation__block'>
+                <ul className='navigation__contancts'>
+                    <li className='navigation__social'>
+                        <a href='https://twitter.com/FrauMizantrop' target='_blank' className='navigation__social_icon navigation__social_twitter'></a>
+                    </li>
+                    <li className='navigation__social'>
+                        <a href='https://www.patreon.com/Martovskiy_Zayac' target='_blank' className='navigation__social_icon navigation__social_patreon'></a>
+                    </li>
+                    <li className='navigation__social'>
+                        <a href='https://zayacv.tumblr.comsss' target='_blank' className='navigation__social_icon navigation__social_tumblr'></a>
+                    </li>
+                    <li className='navigation__social'>
+                        <a href='https://boosty.to/martovskiy_zayac' target='_blank' className='navigation__social_icon navigation__social_insta'></a>
+                    </li>
+                    <li className='navigation__social'>
+                        <a href='https://boosty.to/martovskiy_zayac' target='_blank' className='navigation__social_icon navigation__social_boosty'></a>
+                    </li>
+                </ul>
+            </div>
         </section>
     )
 }

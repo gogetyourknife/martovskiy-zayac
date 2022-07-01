@@ -1,0 +1,9 @@
+.info__subtitle {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(154, 140, 152, 0.74);
+    margin: 0;
+    padding: 0;
+}

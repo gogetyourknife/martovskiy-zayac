@@ -1,0 +1,7 @@
+.navigation__social_patreon {
+    background-image: url('../../../../images/patreon-creme.svg');
+}
+
+.navigation__social_patreon:hover {
+    background-image: url('../../../../images/icon-patreon.svg');
+}

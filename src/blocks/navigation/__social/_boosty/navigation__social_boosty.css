@@ -1,0 +1,7 @@
+.navigation__social_boosty {
+    background-image: url('../../../../images/bolt-creme.png');
+}
+
+.navigation__social_boosty:hover {
+    background-image: url('../../../../images/bolt-red.png');
+}

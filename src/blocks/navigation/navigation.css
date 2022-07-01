@@ -1,9 +1,32 @@
 .navigation {
-    display: block;
     overflow: hidden;
-    position: fixed;
     background-color: rgba(74, 78, 105);
     box-sizing: border-box;
     width: 329px;
+    height: 100%;
     padding-top: 300px;
+    display: grid;
+    grid-area: nav;
+    position: fixed;
+    margin: 0;
+}
+
+@media (min-width: 769px) and (max-width: 900px) {
+    .navigation {
+        padding-top: 100px;
+        width: 260px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .navigation {
+        padding-top: 100px;
+        width: 28%;
+    }
+}
+
+@media (max-width: 425px) {
+    .navigation {
+        width: 20%;
+    }
 }

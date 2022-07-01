@@ -1,0 +1,15 @@
+.navigation__social_icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 20px;
+    height: 20px;
+    transition: 0.15s;
+}
+
+@media (max-width: 425px) {
+    .navigation__social_icon {
+        width: 12px;
+        height: 12px;
+    }
+}

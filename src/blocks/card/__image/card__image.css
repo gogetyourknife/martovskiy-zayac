@@ -1,0 +1,7 @@
+.card__image {
+    max-width: 80px;
+    align-items: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}

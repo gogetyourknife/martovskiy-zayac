@@ -1,0 +1,7 @@
+.navigation__social_tumblr {
+    background-image: url('../../../../images/tumblr-creme.svg');
+}
+
+.navigation__social_tumblr:hover {
+    background-image: url('../../../../images/tumblr-red.svg');
+}

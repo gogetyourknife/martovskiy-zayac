@@ -1,0 +1,30 @@
+.root {
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 329px auto;
+    grid-template-areas: "nav header"
+        "nav main"
+}
+
+@media (min-width: 769px) and (max-width: 900px) {
+    .root {
+        grid-template-columns: 260px auto;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .root {
+        grid-template-columns: 28% auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .root {
+        grid-template-columns: 20% auto;
+    }
+}

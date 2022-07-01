@@ -1,0 +1,7 @@
+.navigation__social_twitter {
+    background-image: url('../../../../images/twitter-creme.svg');
+}
+
+.navigation__social_twitter:hover {
+    background-image: url('../../../../images/icons-twitter.svg');
+}

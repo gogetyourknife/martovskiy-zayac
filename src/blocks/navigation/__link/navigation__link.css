@@ -9,3 +9,19 @@
     cursor: pointer;
     transition: 0.15s;
 }
+
+.navigation__link:hover {
+    color: rgb(201, 173, 167)
+}
+
+@media (min-width: 426px) and (max-width: 900px) {
+    .navigation__link {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 425px) {
+    .navigation__link {
+        font-size: 11px;
+    }
+}
