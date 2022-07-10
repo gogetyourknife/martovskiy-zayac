@@ -1,8 +1,7 @@
 .main {
     display: grid;
     grid-area: main;
-    height: 650px;
+    max-height: 650px;
     float: right;
-    position: relative;
     padding: 0;
 }

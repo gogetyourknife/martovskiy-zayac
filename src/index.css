@@ -27,3 +27,7 @@
 @import url('./blocks/card/__title/card__title.css');
 @import url('./blocks/card/__subtitle/card__subtitle.css');
 @import url('./blocks/block/__pink/block__pink.css');
+@import url('./blocks/pic/pic.css');
+@import url('./blocks/pic/__title/pic__title.css');
+@import url('./blocks/pic/__wrapper/pic__wrapper.css');
+@import url('./blocks/pic/__image/pic__image.css');

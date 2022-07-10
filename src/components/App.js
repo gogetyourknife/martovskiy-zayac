@@ -2,6 +2,8 @@ import React from 'react';
 import Nav from './Nav';
 import Header from './Header';
 import Main from './Main';
+import Card from './Card';
+
 
 import {
   Route,
@@ -14,6 +16,7 @@ function App() {
       <Header />
       <Nav />
       <Main />
+      <Card />
     </div>
   );
 }

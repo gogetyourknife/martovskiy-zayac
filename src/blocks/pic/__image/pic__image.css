@@ -1,0 +1,7 @@
+.pic__image {
+    width: 215px;
+    height: 215px;
+    overflow: hidden;
+    object-fit: cover;
+
+}

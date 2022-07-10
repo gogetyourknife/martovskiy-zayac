@@ -9,6 +9,7 @@
     grid-template-columns: 329px auto;
     grid-template-areas: "nav header"
         "nav main"
+        "nav card"
 }
 
 @media (min-width: 769px) and (max-width: 900px) {
