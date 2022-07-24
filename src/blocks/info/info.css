@@ -1,7 +1,7 @@
 .info {
     margin: 0 auto;
     text-align: center;
-    max-height: 549px;
-    padding: 57px 0 75px;
+    min-height: 549px;
+    padding: 57px 0 10px;
     background-color: rgba(242, 233, 228, 0.7);
 }

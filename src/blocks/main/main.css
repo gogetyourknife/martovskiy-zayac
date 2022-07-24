@@ -1,7 +1,7 @@
 .main {
     display: grid;
     grid-area: main;
-    max-height: 650px;
+    min-height: 650px;
     float: right;
     padding: 0;
 }

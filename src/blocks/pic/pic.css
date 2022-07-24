@@ -1,7 +1,7 @@
 .pic {
     display: grid;
     grid-area: card;
-    max-height: 650px;
+    min-height: 650px;
     margin: 0;
     padding: 57px 0 75px;
     background-color: rgba(242, 233, 228, 0.7);

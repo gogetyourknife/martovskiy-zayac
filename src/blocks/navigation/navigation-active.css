@@ -1,0 +1,5 @@
+@media (max-width: 426px) {
+    .navigation-active {
+        display: hide;
+    }
+}

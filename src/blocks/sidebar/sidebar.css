@@ -1,0 +1,19 @@
+.sidebar {
+    display: none;
+}
+
+@media (max-width: 426px) {
+    .sidebar {
+        display: block;
+        position: absolute;
+        background-image: url('../../images/sidebar_noactive.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+}

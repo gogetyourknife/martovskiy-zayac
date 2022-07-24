@@ -4,8 +4,23 @@ import { NavLink } from "react-router-dom";
 import paint from '../images/paint.png';
 
 function Nav() {
+
+    function useWindowSize() {
+        const [width, setWidth] = React.useState(window.screen.width);
+        React.useEffect(() => {
+            const handleResize = () => {
+                setWidth(window.screen.width)
+            }
+            window.addEventListener('resize', handleResize)
+        }, []);
+        return width
+    }
+
+    const width = useWindowSize();
+
+
     return (
-        <section className='navigation'>
+        <section className={width >= 426 ? 'navigation navigation-active' : 'navigation navigation-hide'}>
             <ul className='navigation__wrapper'>
                 <li className='navigation__link'>
                     <NavLink
